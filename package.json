@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "nodemon index.js",
     "binarysearch": "nodemon binary-search.js",
-    "sort": "nodemon sort.js"
+    "sort": "nodemon sort.js",
+    "recursion": "nodemon recursion.js"
   },
   "keywords": [],
   "author": "",
