@@ -19,3 +19,5 @@ function binarySearch(sortedArr, value) {
 }
 
 const arrayForTest = [1, 3, 5, 7, 9];
+
+// console.log(binarySearch(arrayForTest));
