@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js",
-    "binarysearch": "nodemon binary-search.js",
-    "sort": "nodemon sort.js",
-    "recursion": "nodemon recursion.js",
-    "chapter-4": "nodemon chapter-4.js"
+    "dev": "nodemon ./examples/index.js",
+    "binarysearch": "nodemon ./examples/binary-search.js",
+    "sort": "nodemon ./examples/sort.js",
+    "recursion": "nodemon ./examples/recursion.js",
+    "chapter-4": "nodemon ./exercises/chapter-4.js"
   },
   "keywords": [],
   "author": "",
