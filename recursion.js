@@ -1,17 +1,19 @@
-let key;
-
 function lookForKey(list) {
   for (let index = 0; index < list.length; index++) {
     const element = list[index];
 
-    if (key) return "We found a key";
+    if (element.type === "key") {
+      return element;
+    }
 
-    if (element.type === "box") {
-      lookForKey(element.value);
-    } else if (element.type === "key") {
-      key = element;
+    if (element.value) {
+      let result = lookForKey(element.value);
+
+      if (result) return result;
     }
   }
+
+  return null;
 }
 
 let bigBox = [
@@ -53,4 +55,4 @@ let bigBox = [
   },
 ];
 
-console.log(lookForKey(bigBox));
+// console.log(lookForKey(bigBox));
