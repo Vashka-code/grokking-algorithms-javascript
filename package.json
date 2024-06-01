@@ -8,6 +8,7 @@
     "binarysearch": "nodemon ./examples/binary-search.js",
     "sort": "nodemon ./examples/sort.js",
     "recursion": "nodemon ./examples/recursion.js",
+    "quicksort": "nodemon ./examples/quick-sort.js",
     "chapter-4": "nodemon ./exercises/chapter-4.js"
   },
   "keywords": [],
